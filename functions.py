@@ -1,7 +1,7 @@
 import numba
 from time import time
 
-@numba.njit(cache = True)
+# @numba.njit(cache = True)
 def test1():
     allData = []
     for i in range(10000000):
